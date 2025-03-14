@@ -1,0 +1,3 @@
+I tend to use Debian, which uses glibc. When shipping compiled binaries that aren't built as a debian package, it is easy to run into glibc symbol versioning issues. The scripts here are meant to give Debian-based, Debian-compatible build environments for rust programs to link against a well known glibc version that will match a deployment environment.
+
+WARNING: You're free to re-use anything in this repository but nothing in this repository should be construed as stable or meant for public consumption in any way.
